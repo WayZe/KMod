@@ -1,4 +1,5 @@
 ﻿#define __DEBUG__
+//#undef __DEBUG__
 
 using System;
 using System.Collections.Generic;
@@ -6,11 +7,11 @@ using System.IO;
 
 namespace KMod
 {
-    public class FileHandler
+    public static class FileHandler
     {
-        static  String inputFilePath = "/Users/andreymakarov/Downloads/AiOD/variations.txt";
+        private static String inputFilePath = "/Users/andreymakarov/Downloads/AiOD/variations.txt";
 
-        static public List<List<int>> ReadFile()
+        public static List<List<int>> ReadFile()
         {
             StreamReader streamReader = new StreamReader(inputFilePath);
             List<List<int>> formatList = new List<List<int>>();

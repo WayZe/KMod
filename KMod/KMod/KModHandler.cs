@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 namespace KMod
 {
-    public class KModHandler
+    public static class KModHandler
     {
-        //static private int xAmount;
-        static public int XAMount { get; set; }
+        public static int XAMount { get; set; }
 
-        static public List<List<int>> GenerateStartCentroids(int k)
+        public static List<List<int>> X { get; set; }
+
+        private static List<List<int>> centroids = new List<List<int>>();
+
+        private static List<List<int>> clusters = new List<List<int>>();
+
+        public static List<List<int>> GenerateStartCentroids(int k)
         {
-            List<List<int>> centroids = new List<List<int>>();
-
             Random rnd = new Random();
             for (int i = 0; i < k; i++)
             {
@@ -23,6 +26,19 @@ namespace KMod
             }
 
             return centroids;
+        }
+
+        public static List<List<int>> GenerateStartClusters()
+        {
+            for (int i = 0; i < X.Count; i++)
+            {
+                for (int j = 0; j < centroids.Count; j++)
+                {
+                    // TO_DO
+                }
+            }
+
+            return clusters;
         }
     }
 }

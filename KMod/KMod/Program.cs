@@ -1,4 +1,5 @@
 ﻿#define __DEBUG__
+//#undef __DEBUG__
 
 using System;
 using System.Collections.Generic;
@@ -29,16 +30,18 @@ namespace KMod
             }
             Console.WriteLine();
 
-            List<List<int>> X = FileHandler.ReadFile();
+            KModHandler.X = FileHandler.ReadFile();
 
-            KModHandler.XAMount = X[0].Count;
+
+            KModHandler.XAMount = KModHandler.X[0].Count;
+
 #if __DEBUG__
             Console.WriteLine("Факторы: ");
-            for (int i = 0; i < X.Count; i++)
+            for (int i = 0; i < KModHandler.X.Count; i++)
             {
-                for (int j = 0; j < X[i].Count; j++)
+                for (int j = 0; j < KModHandler.X[i].Count; j++)
                 {
-                    Console.Write(X[i][j] + " ");
+                    Console.Write(KModHandler.X[i][j] + " ");
                 }
                 Console.WriteLine();
             }
