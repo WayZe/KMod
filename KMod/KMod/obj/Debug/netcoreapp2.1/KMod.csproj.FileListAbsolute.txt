@@ -1,0 +1,11 @@
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.csprojAssemblyReference.cache
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.csproj.CoreCompileInputs.cache
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.AssemblyInfoInputs.cache
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.AssemblyInfo.cs
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/bin/Debug/netcoreapp2.1/KMod.deps.json
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/bin/Debug/netcoreapp2.1/KMod.runtimeconfig.json
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/bin/Debug/netcoreapp2.1/KMod.runtimeconfig.dev.json
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/bin/Debug/netcoreapp2.1/KMod.dll
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/bin/Debug/netcoreapp2.1/KMod.pdb
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.dll
+/Users/andreymakarov/Downloads/AiOD/KMod/KMod/KMod/obj/Debug/netcoreapp2.1/KMod.pdb
