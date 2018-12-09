@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{9F4CAE15-5158-4C5E-9CF2-66BF397BC170}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KMod/FileHandler.cs">
+    <Files>
+      <File FileName="KMod/KModHandler.cs" Line="14" Column="27" />
+      <File FileName="KMod/Program.cs" Line="131" Column="43" />
+      <File FileName="KMod/FileHandler.cs" Line="47" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.KMod PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
